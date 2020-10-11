@@ -9,7 +9,7 @@ $(function () {
 		offset: 30, // move trigger to center of element
 	})
 		.setClassToggle('#index', 'visible') // add class to reveal
-		.addIndicators() // add indicators (requires plugin)
+		//.addIndicators() // add indicators (requires plugin)
 		.addTo(controller);
 	
 	new ScrollMagic.Scene({
@@ -19,6 +19,6 @@ $(function () {
 		offset: 30, // move trigger to center of element
 	})
 		.setClassToggle('#index2', 'visible') // add class to reveal
-		.addIndicators() // add indicators (requires plugin)
+		//.addIndicators() // add indicators (requires plugin)
 		.addTo(controller);
 });
