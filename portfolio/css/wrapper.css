@@ -1,0 +1,19 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+.header {
+	width: 100%;
+	height: 8%;
+}
+.mainSection {
+	margin: 0;
+	background-color: #BDBDBD;
+	border-radius: 10px;
+	width: 100%;
+	height: 80%;
+}
+.footer {
+	width: 100%;
+	height: 2%;
+}

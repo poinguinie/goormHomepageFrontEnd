@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="portfolio/css/wrapper.css" />
+		<link rel="stylesheet" href="portfolio/css/header.css" />
+		<link rel="stylesheet" href="portfolio/css/mainSection.css" />
+		<link rel="stylesheet" href="portfolio/css/footer.css" />
+		<link rel="stylesheet" href="portfolio/css/slick.css" />
+		<link rel="stylesheet" href="portfolio/css/slick-theme.css" />
+		<link rel="shortcut icon" href="images/icon.png" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+		<script src="portfolio\js/jquery.min.js"></script>
+		<script src="portfolio\js/btnScript.js"></script>
+		<script src="portfolio\js/slick.js"></script>
+		<script src="portfolio\js/prev_next_img.js"></script>
+		<title>포트폴리오 페이지</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h2 class="pageName">제작 홈페이지 <sub>(클릭시 해당 홈페이지로 이동)</sub></h2>
+			</header>
+			<section class="mainSection">
+				<div class="sliders">
+					<div class="slider-container">
+						<div class="slider">
+							<img
+								align="center"
+								class="py"
+								style="cursor: pointer;"
+								onclick="javascript:window.open('http://cafeteras12.dothome.co.kr')"
+								src="portfolio\images\pythonPage.png"
+							/>
+							<span>2018년 1학기 전공 파이썬 텀프로젝트 (미완)</span>
+						</div>
+						<div class="slider">
+							<img
+								align="center"
+								class="comm"
+								style="cursor: pointer;"
+								onclick="javascript:window.open('portfolio/communityPage/index.html')"
+								src="portfolio\images\communityPage.png"
+							/>
+							<span>2018년 2학기 교양 커뮤니티 웹 개발</span>
+						</div>
+						<div class="slider">
+							<img
+								align="center"
+								class="comeng"
+								style="cursor: pointer;"
+								onclick="javascript:window.open('portfolio/computerEnglishPage/index.html')"
+								src="portfolio\images\computerEnglishPage.png"
+							/>
+							<span>2018년 2학기 전공 컴퓨터 영어 웹 개발</span>
+						</div>
+						<div class="slider">
+							<img
+								align="center"
+								class="poin"
+								style="cursor: pointer;"
+								onclick="javascript:window.open()"
+								src="portfolio\images\poinguiniePage.png"
+							/>
+							<span>개인 홈페이지 poinguinie (미완)</span>
+						</div>
+						<div class="slider">
+							<img
+								class="newpoin"
+								style="cursor: pointer;"
+								onclick="javascript:window.open('https://newpoinguinie.run.goorm.io/')"
+								src="portfolio\images\newpoinguiniePage.png"
+							/>
+							<span>개인 홈페이지 (2) new poinguinie (미완)</span>
+						</div>
+					</div>
+				</div>
+				<div id="pager">
+					<div class="prev">
+						<span>&#10094;</span>
+					</div>
+					<div class="next">
+						<span>&#10095;</span>
+					</div>
+				</div>
+				<div class="slideInfo">
+					<p id="info"></p>
+				</div>
+			</section>
+			<footer class="footer">
+				Poinguinie
+			</footer>
+		</div>
+	</body>
+</html>

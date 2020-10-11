@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+#index {
+	position: sticky;
+	top: 20%;
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Commissioner';
+	font-size: 6em;
+	color: #fff;
+	transform: translatey(30px);
+	opacity: 0;
+
+	&.visible {
+		opacity: 1;
+		transform: translateY(0);
+		transition: all 1.1s;
+	}
+}
+#index2 {
+	position: sticky;
+	top: 50%;
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Commissioner';
+	font-size: 6em;
+	color: #fff;
+	transform: translatey(30px);
+	opacity: 0;
+
+	&.visible {
+		opacity: 1;
+		transform: translateY(0);
+		transition: all 1.1s;
+	}
+}
+.trigger1 , .trigger2{
+	width: 100%;
+	height: auto;
+}
