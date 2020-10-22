@@ -1,0 +1,29 @@
+.navi-box {
+	position: fixed;
+	left: 5%;
+	top: 5%;
+}
+
+.navi-lists {
+	list-style-type: none;
+	display: block;
+	text-decoration: none;
+}
+
+.navi-list {
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.navi-list:link, .navi-list:active, .navi-list:visited {
+	color:#fff;
+}
+
+.active {
+	
+	background-color: #000;
+	color: #fff;
+}

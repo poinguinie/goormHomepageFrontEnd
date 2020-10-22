@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
 
+.link {
+	text-decoration: none;
+	color: white;
+	&:hover {
+		color: gray;
+		text-shadow: black;
+	}
+}
+
 #index1 {
-	position: sticky;
+	position: fixed;
 	top: 20%;
 	padding: 0;
 	margin: 0 auto;
@@ -18,12 +27,12 @@
 		transition: all 1.1s;
 	}
 }
-#index2 {
-	position: sticky;
-	top: 50%;
+#scrollBtn {
+	position: fixed;
+	left: 50%;
+	top: 80%;
 	padding: 0;
 	margin: 0 auto;
-	font-family: 'Commissioner';
 	font-size: 6em;
 	color: #fff;
 	transform: translatey(30px);
