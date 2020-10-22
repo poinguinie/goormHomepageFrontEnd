@@ -1,6 +1,6 @@
 .navi-box {
 	position: fixed;
-	left: 50%;
+	left: 30%;
 	top: 5%;
 }
 
@@ -12,7 +12,7 @@
 
 .navi-list {
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1em;
 	color: #fff;
 	padding: 10px;
 	border-radius: 10px;
